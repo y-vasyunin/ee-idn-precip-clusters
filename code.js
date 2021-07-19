@@ -10,7 +10,7 @@ var country_name = "Indonesia";
 var era5 = ee.ImageCollection("ECMWF/ERA5_LAND/MONTHLY");
 
 // period
-var yearStart = 2010;
+var yearStart = 2000;
 var yearEnd = 2020;
 
 // clustering
