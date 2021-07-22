@@ -8,10 +8,31 @@ The code allows studying the precipitation distribution for the whole Indonesia 
 
 In its current realization, it computes three clusters based on a *total precipitation* band and saves the result as a GeoTiff file (WGS84).
 
+## Code structure
+
+The script (`code.js`) is divided into distinct sections:
+
+1. **Input variables**
+  - *Area of interest*
+  - *Data*
+  - *Period*
+  - *Styling & display*
+  - *Export*
+2. **Functions**
+3. **Implementation**
+  - *Data preparation*
+  - *Clustering*
+4. **Visualization**
+  - *Console* - print statistics about identified clusters
+  - *Basemap*
+  - *Computed layers*
+  - *Legend*
+5. **Export** - save GeoTIFF to your Google Drive folder
+
 ## Developers
 
-  - [Vasily Lobanov](https://www.linkedin.com/in/vasyunin), RUDN University, Moscow
-  - [Yaroslav Vasyunin](https://www.linkedin.com/in/lobanov-v/), independent researcher, Italy
+  - [Vasily Lobanov](https://www.linkedin.com/in/lobanov-v/), RUDN University, Moscow
+  - [Yaroslav Vasyunin](https://www.linkedin.com/in/vasyunin), independent researcher, Italy
 
 ## License
 
