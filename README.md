@@ -1,15 +1,17 @@
-# Precipitation Clusters in Indonesia
+# Identifying climatic regions in Indonesia
 
-Code used in a publication on wildfires in Indonesia. It is developed to be run inside the [Google Earth Engine](https://earthengine.google.com/) platform. You need to have both Google (Gmail) and Google Earth Engine accounts in order to use it.
+This code is used in an scholarly publication on wildfires in Indonesia. It is developed to be run inside the [Google Earth Engine](https://earthengine.google.com/) platform. You need to have both Google (Gmail) and Google Earth Engine accounts in order to use it.
 
-The code allows studying the distribution of precipitation distribution for the whole Indonesia by making clusters from [ERA5 Monthly aggregates - Latest climate reanalysis produced by ECMWF / Copernicus Climate Change Service](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_MONTHLY) data. You are free to change input variables, such as the period for data clustering or area of interest.
+The code allows studying the precipitation distribution for the whole Indonesia by making clusters from [ERA5-Land monthly averaged - ECMWF climate reanalysis](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_MONTHLY) data. You are free to change input variables, such as the period for data clustering or area of interest.
 
 ![](screenshot.png)
 
+In its current realization, it computes three clusters based on a *total precipitation* band and saves the result as a GeoTiff file (WGS84).
+
 ## Developers
 
-  - [Vasily Lobanov](https://www.linkedin.com/in/vasyunin)
-  - [Yaroslav Vasyunin](https://www.linkedin.com/in/lobanov-v/)
+  - [Vasily Lobanov](https://www.linkedin.com/in/vasyunin), RUDN University, Moscow
+  - [Yaroslav Vasyunin](https://www.linkedin.com/in/lobanov-v/), independent researcher, Italy
 
 ## License
 
