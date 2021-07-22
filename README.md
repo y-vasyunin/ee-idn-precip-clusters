@@ -21,12 +21,12 @@ The script (`code.js`) is divided into distinct sections:
 2. **Functions**
 3. **Implementation**
     - Data preparation
-    - Clustering
+    - Clustering *- perform k-means clustering*
 4. **Visualization**
     - Console *- print statistics about identified clusters*
-    - Basemap
-    - Computed layers
-    - Legend
+    - Basemap *- change default basemap to something dimmer*
+    - Computed layers *- add newly created layers to the map*
+    - Legend *- create and add a legend to the map*
 5. **Export** *- save GeoTIFF to your Google Drive folder*
 
 ## Developers
