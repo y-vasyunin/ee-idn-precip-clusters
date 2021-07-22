@@ -13,21 +13,21 @@ In its current realization, it computes three clusters based on a *total precipi
 The script (`code.js`) is divided into distinct sections:
 
 1. **Input variables**
-    - *Area of interest*
-    - *Data*
-    - *Period*
-    - *Styling & display*
-    - *Export*
+    - Area of interest
+    - Data
+    - Period
+    - Styling & display
+    - Export
 2. **Functions**
 3. **Implementation**
-    - *Data preparation*
-    - *Clustering*
+    - Data preparation
+    - Clustering
 4. **Visualization**
-    - *Console* - print statistics about identified clusters
-    - *Basemap*
-    - *Computed layers*
-    - *Legend*
-5. **Export** - save GeoTIFF to your Google Drive folder
+    - Console *- print statistics about identified clusters*
+    - Basemap
+    - Computed layers
+    - Legend
+5. **Export** *- save GeoTIFF to your Google Drive folder*
 
 ## Developers
 
